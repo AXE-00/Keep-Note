@@ -8,6 +8,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NoteViewComponent } from './components/note-view/note-view.component';
 import { SearchNoteComponent } from './components/search-note/search-note.component';
 import { NoteComponent } from './components/note/note.component';
+import { AddNoteComponent } from './components/add-note/add-note.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NoteComponent } from './components/note/note.component';
     DashboardComponent,
     NoteViewComponent,
     SearchNoteComponent,
-    NoteComponent
+    NoteComponent,
+    AddNoteComponent
   ],
   imports: [
     BrowserModule,
