@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NoteViewComponent } from './components/note-view/note-view.component';
+import { SearchNoteComponent } from './components/search-note/search-note.component';
+import { NoteComponent } from './components/note/note.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DashboardComponent,
-    NoteViewComponent
+    NoteViewComponent,
+    SearchNoteComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
