@@ -9,6 +9,8 @@ import { NoteViewComponent } from './components/note-view/note-view.component';
 import { SearchNoteComponent } from './components/search-note/search-note.component';
 import { NoteComponent } from './components/note/note.component';
 import { AddNoteComponent } from './components/add-note/add-note.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +20,12 @@ import { AddNoteComponent } from './components/add-note/add-note.component';
     NoteViewComponent,
     SearchNoteComponent,
     NoteComponent,
-    AddNoteComponent
+    AddNoteComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
