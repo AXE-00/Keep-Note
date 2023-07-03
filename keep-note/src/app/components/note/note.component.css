@@ -1,0 +1,14 @@
+#noteDetails{
+    display:inline-block;
+    width:150px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:8px;
+    box-shadow:rgb(39, 194, 245) 10px 5px 7px;
+    margin-top: 30px;
+}
+h4,p{
+    font-family: arial;
+}
