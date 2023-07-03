@@ -1,1 +1,12 @@
-<p>search-note works!</p>
+<div class=" row d-flex justify-content-around" style="background-color: rgb(10, 30, 105);">
+	<div id="searchElement" class="col col-5">
+		<input
+		class="col-6"
+			type="text"
+			placeholder="Search note"
+			[(ngModel)]="searchText"
+			id="searchBox"
+		/>
+		<input style="background-color: rgb(10, 30, 105); color: white;" class="col-2" type="button" value="search" (click)="onSearchTextChanged()" />
+	</div>
+</div>

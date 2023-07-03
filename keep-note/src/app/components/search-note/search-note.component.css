@@ -1,0 +1,18 @@
+.container{
+    margin: 50px auto;
+    width: 235px;
+    
+}
+#searchElement{
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+#searchBox{
+    border: 1px solid orange;
+    background-color: rgb(10, 30, 105); 
+    color: white;
+}
+#searchElement{
+    margin-left: 1600px;
+}

@@ -1,1 +1,7 @@
-<p>note-view works!</p>
+<div id="searchBox">
+    <app-search-note (searchTextChanged)="search($event)"></app-search-note>
+</div>
+    
+<div class="noteDetails">
+    <app-note *ngFor="let note of notes" [noteDetails]="note"></app-note>
+</div>
