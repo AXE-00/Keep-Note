@@ -1,9 +1,16 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Note } from '../models/note.model';
 
 @Injectable({
-  providedIn: 'root'
+	providedIn: 'root',
 })
 export class KeepNoteService {
+	constructor(private httpService: HttpClient) {}
+	URL: string = 'http://localhost:3000/notes';
 
-  constructor() { }
+	getNotes(): Observable<Array<Note>> {
+		return this.httpService.get<Array<Note>>(this.URL);
+	}
 }

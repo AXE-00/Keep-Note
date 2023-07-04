@@ -10,6 +10,7 @@ import { SearchNoteComponent } from './components/search-note/search-note.compon
 import { NoteComponent } from './components/note/note.component';
 import { AddNoteComponent } from './components/add-note/add-note.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
