@@ -1,7 +1,9 @@
 <div id="searchBox">
-    <app-search-note (searchTextChanged)="search($event)"></app-search-note>
+	<app-search-note (searchTextChanged)="search($event)"></app-search-note>
 </div>
-    
+
+<app-add-note (noteAdded)="insertData($event)"></app-add-note>
+
 <div class="noteDetails">
-    <app-note *ngFor="let note of notes" [noteDetails]="note"></app-note>
+	<app-note *ngFor="let note of notes" [noteDetails]="note"></app-note>
 </div>
