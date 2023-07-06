@@ -1,0 +1,19 @@
+#addNotes{
+    width:30%;
+    margin:30px auto;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+}
+h2{
+    margin-left: 10px
+}
+input{
+    width: 44%;
+    margin: 10px;
+    height: 25px;
+}
+textarea{
+    margin: 10px;
+    width: 94%;
+    resize: vertical;
+}
