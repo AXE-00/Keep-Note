@@ -37,4 +37,7 @@ export class NoteViewComponent implements OnInit {
 		}
 	}
 
+	insertData(response:Note){
+		this.notes.push(response)
+	}
 }
