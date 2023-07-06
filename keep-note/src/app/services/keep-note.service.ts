@@ -13,4 +13,8 @@ export class KeepNoteService {
 	getNotes(): Observable<Array<Note>> {
 		return this.httpService.get<Array<Note>>(this.URL);
 	}
+
+	addNote(addNote:Note){
+		return this.httpService.post<Note>(this.URL,addNote)
+	}
 }
