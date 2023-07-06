@@ -1,1 +1,9 @@
-<p>add-note works!</p>
+<div id="addNotes">
+    <h2>Add New Note</h2>
+    
+    <input type="text" placeholder="Note id" name="id" [(ngModel)]="note.id">
+    <input type="text" placeholder="Note Title" name="title" [(ngModel)]="note.title">
+    <textarea type="text" placeholder="Note Content" name="content" [(ngModel)]="note.content"></textarea>
+    <br>
+    <input type="button" value="Add Note" (click)="addNote()">
+</div>
