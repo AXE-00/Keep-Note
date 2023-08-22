@@ -24,6 +24,11 @@
       "id": 5,
       "title": "refactor challenge",
       "content": "make design responsive and add comments in code"
+    },
+    {
+      "id": 6,
+      "title": "To Do",
+      "content": "Clean room \nGet Groceries\n Exercise"
     }
   ]
 }
